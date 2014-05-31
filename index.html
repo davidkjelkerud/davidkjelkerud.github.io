@@ -3,12 +3,18 @@
     <title>David Kjelkerud</title>
     <style type="text/css">
       body {
-        background-image: url(testbg.jpg);
+        background-image: url(bg.jpg);
         -webkit-background-size: cover;
         background-size: cover;
         background-position: center center;
         color: white;
       }
+      @media only screen and (min-device-pixel-ratio: 2) {
+        body {
+          background-image: url(testbg.jpg);
+        }
+      }
+
 
       p {
         font-family: "DIN PRO", Futura, "Helvetica Neue";
